@@ -1,0 +1,14 @@
+{
+  "name": "limitcontroler",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "start"
+  },
+  "author": "anton",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
