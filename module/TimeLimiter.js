@@ -32,11 +32,7 @@ class TimeLimiter{
             let p=(this.#timeList.length==0)?0:
                 this.#timeList[this.#timeList.length-1]-this.#timeList[0];
             prevTime=p/(t2-t1);
-            console.log(this.#timeList)
-            console.log(p,t2,t1);
-            console.log(prevTime,answer,this.#prevCountQuery,this.#currCountQuery)
             this.#resCheck=this.#currCountQuery<=answer&&answer<this.#nQuery;  
-            console.log(this.#resCheck)
             this.#prevCountQuery=this.#currCountQuery; 
             this.#currCountQuery=0;
             this.#timeList.length=0;
